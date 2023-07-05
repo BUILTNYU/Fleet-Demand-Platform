@@ -40,3 +40,8 @@ Files includes:
 "FD_platform.py": Full code of the FD platform, which involves MATSim and an external simulator "DVRPT". The "DVRPT" simulator can be found [here](https://github.com/BUILTNYU/ridepooling-with-transfers).<br>
 "config-with-mode-vehicles-drt-tele_2_income.xml": Configuration file for MATsim run in cycle 0.<br>
 "config-with-mode-vehicles-drt-tele_2_income_updated.xml": Configuration file for MATsim run in following cycles.<br>
+
+## License
+The NYU NON-COMMERCIAL RESEARCH LICENSE is applied to Fleet-Demand-Platform (FD Platform). Please contact Joseph Chow (joseph.chow@nyu.edu) for commercial use.
+
+For questions about the code, please contact: Hai Yang (hy1236@nyu.edu).
