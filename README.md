@@ -37,7 +37,10 @@ The files provided are using part of New York City (NYC) network for simulation.
 
 Files includes:
 
-"FD_platform.py": Full code of the FD platform, which involves MATSim and an external simulator "DVRPT". The "DVRPT" simulator can be found [here](https://github.com/BUILTNYU/ridepooling-with-transfers).<br>
+"FD_platform.py": Full code of the FD platform, which involves MATSim and an external simulator "DVRPT". <br>
+The "DVRPT" simulator can be found [here](https://github.com/BUILTNYU/ridepooling-with-transfers).<br>
+"nyu-implementation/src/main/java/edu/nyu/intramodal": Java package for the DVRPT simulator
+"nyu-implementation/src/main/java/edu/nyu/intramodal/DVRPT.jar": Executable .jar file of DVRPT simulator. The "FD_platform.py" calls this file to execute the DVRPT simulator.
 "config-with-mode-vehicles-drt-tele_2_income.xml": Configuration file for MATsim run in cycle 0.<br>
 "config-with-mode-vehicles-drt-tele_2_income_updated.xml": Configuration file for MATsim run in following cycles.<br>
 
